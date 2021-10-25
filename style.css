@@ -1,0 +1,84 @@
+/* sfondo */
+*{
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.boxnero{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  /* padding: 10%; */
+  padding: 50px;
+  margin: 10% auto;
+  width: 30%;
+}
+
+.contenitore{
+  text-align: center;
+}
+
+.logotext{
+  margin: auto;
+  color: #39ff14;
+}
+
+div .boxverde{
+  background-color: #39ff14;
+  display: inline-block;
+  margin: 2% auto;
+  padding: 2% 20%;
+}
+
+.rettangolo{
+  width: 100px;
+  height: 100px;
+  background: white;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 15px;
+}
+
+div .Tipologia{
+  text-align: justify;
+}
+
+.title{
+  display: inline-block;
+  color: white;
+  margin: 1%;
+}
+
+.caratteristiche{
+  display: block;
+  color: white;
+  margin: 1%;
+}
+
+.caricaorange{
+  background-color: orange;
+  border-radius: 5px;
+  width: 70%;
+  height: 30px;
+  margin: 1%;
+}
+
+.caricagreen{
+  background-color: green;
+  border-radius: 5px;
+  width: 90%;
+  height: 30px;
+  margin: 1%;
+}
+
+.caricared{
+  background-color: red;
+  border-radius: 5px;
+  width: 40%;
+  height: 30px;
+  margin: 1%;
+}
